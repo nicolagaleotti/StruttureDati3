@@ -6,7 +6,10 @@ namespace Dati_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Nome del file sorgente: ");
+            string file = $"{ Console.ReadLine()}.txt";
+            Console.WriteLine("Nome del file nuovo: ");
+            string file2 = $"{ Console.ReadLine()}.txt";
         }
     }
 }
